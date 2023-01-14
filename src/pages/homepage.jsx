@@ -1,5 +1,13 @@
+import Carousal from './homecarousal';
+import Cards from './jsonitemcards';
+
 function Home() {
-	return <h1>HOME</h1>;
+	return (
+		<>
+			<Carousal />
+			{/* <Cards /> */}
+		</>
+	);
 }
 
 export default Home;
