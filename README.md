@@ -1,1 +1,1 @@
-# SIMMI-ReactJS-internship-project
+Project assignment for the SIMMI foundation ReactJS Internship.
