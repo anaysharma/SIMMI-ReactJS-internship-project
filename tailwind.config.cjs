@@ -6,11 +6,10 @@ module.exports = {
 		'./node_modules/tw-elements/dist/js/**/*.js',
 	],
 	theme: {
-		extend: {
-			dropShadow: {
-				'2xl': '0 10px 25px rgba(0, 0, 0, 0.2)',
-			},
-		},
+		extend: {},
 	},
-	plugins: [require('tw-elements/dist/plugin')],
+	plugins: [
+		require('tw-elements/dist/plugin'),
+		require('@tailwindcss/typography'),
+	],
 };

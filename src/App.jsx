@@ -1,26 +1,26 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import About from './pages/aboutpage';
-import Home from './pages/homepage';
-import Profile from './pages/profilepage';
+import About from './pages/about';
+import Home from './pages/home';
+import Profile from './pages/profile';
 import GenerateCardPage from './components/cardPage';
 
 function App() {
 	return (
 		<>
 			<nav className="bg-white px-2 sm:px-4 py-2.5">
-				<ul className="container flex flex-wrap items-center justify-between mx-auto gap-2 max-w-6xl">
+				<ul className="container flex flex-wrap sm:gap-8 items-center justify-between mx-auto max-w-6xl">
 					<li className="hover:text-blue-700 py-4">
-						<Link className="py-4 px-8" to="/">
+						<Link className="p-4" to="/">
 							HOME
 						</Link>
 					</li>
-					<li className="mr-auto hover:text-blue-700 py-4">
-						<Link className="py-4 px-8" to="/about">
+					<li className="sm:mr-auto hover:text-blue-700 py-4">
+						<Link className="p-4" to="/about">
 							ABOUT
 						</Link>
 					</li>
 					<li className="hover:text-blue-700 py-4">
-						<Link className="py-4 px-8" to="/profile">
+						<Link className="p-4" to="/profile">
 							PROFILE
 						</Link>
 					</li>
