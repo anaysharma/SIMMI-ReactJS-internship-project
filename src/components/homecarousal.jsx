@@ -4,10 +4,10 @@ import img3 from '../assets/img3.png';
 
 export default function Carousal() {
 	return (
-		<main className="max-w-4xl flex mx-auto">
+		<section className="max-w-6xl px-8 flex mx-auto">
 			<div
 				id="carouselExampleCaptions"
-				className="carousel slide relative drop-shadow-2xl"
+				className="carousel slide relative shadow-lg rounded-lg"
 				data-bs-ride="carousel"
 			>
 				<div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -92,6 +92,6 @@ export default function Carousal() {
 					<span className="visually-hidden">Next</span>
 				</button>
 			</div>
-		</main>
+		</section>
 	);
 }

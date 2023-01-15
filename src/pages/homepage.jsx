@@ -1,11 +1,11 @@
-import Carousal from './homecarousal';
+import Carousal from '../components/homecarousal';
 import Cards from './jsonitemcards';
 
 function Home() {
 	return (
 		<>
 			<Carousal />
-			{/* <Cards /> */}
+			<Cards />
 		</>
 	);
 }
