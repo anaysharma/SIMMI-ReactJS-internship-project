@@ -5,10 +5,10 @@ import img3 from '../assets/img3.png';
 export default function Carousal() {
 	return (
 		<>
-			<h1 className="text-2xl max-w-6xl px-4 mx-auto text-center sm:text-left mb-4">
+			<h1 className="text-2xl max-w-4xl px-4 mx-auto text-center sm:text-left mb-4">
 				banner image slider
 			</h1>
-			<section className="max-w-6xl px-4 flex mx-auto">
+			<section className="max-w-4xl px-4 flex mx-auto">
 				<div
 					id="carouselExampleCaptions"
 					className="carousel slide relative shadow-lg rounded-lg"

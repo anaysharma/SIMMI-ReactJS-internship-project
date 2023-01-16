@@ -37,7 +37,7 @@ home page consists of two main elements: Banner Image scrollable carousal, and a
 #### About page:
 about page contains documentation if this app itself.
 
-### Profile page:
+#### Profile page:
 profile page contains the developer's contact information, Name, Email, Contact number, Github account and Linkedin Accounts.
 
 # Deployment:
