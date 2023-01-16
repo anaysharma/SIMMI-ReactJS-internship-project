@@ -3,7 +3,7 @@ import data from '../data/data.json';
 
 export default function Cards() {
 	return (
-		<section className="cards grid grid-cols-2 grid-rows-3 gap-4 sm:gap-8 sm:py-8 max-w-6xl mx-auto p-4">
+		<section className="cards grid sm:grid-cols-2 gap-4 sm:gap-8 sm:py-8 max-w-6xl mx-auto p-4">
 			{data.map((item) => {
 				return (
 					<Link to={'/homecards/' + item.id}>
