@@ -1,12 +1,13 @@
-import img1 from '../assets/img1.png';
-import img2 from '../assets/img2.jpg';
-import img3 from '../assets/img3.png';
+import img1 from '../assets/img1.webp';
+import img2 from '../assets/img2.webp';
+import img3 from '../assets/img3.webp';
+import img4 from '../assets/img4.webp';
 
 export default function Carousal() {
 	return (
 		<>
-			<h1 className="text-2xl max-w-4xl px-4 mx-auto text-center sm:text-left mb-4">
-				banner image slider
+			<h1 className="text-2xl max-w-4xl px-4 mx-auto text-center sm:text-left mb-4 pt-24 sm:pt-20">
+				Banner image slider
 			</h1>
 			<section className="max-w-4xl px-4 flex mx-auto">
 				<div
@@ -35,38 +36,39 @@ export default function Carousal() {
 							data-bs-slide-to="2"
 							aria-label="Slide 3"
 						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="3"
+							aria-label="Slide 4"
+						></button>
 					</div>
 					<div className="carousel-inner relative w-full overflow-hidden rounded-lg">
 						<div className="carousel-item active relative float-left w-full">
-							<img
-								src={img1}
-								className="block w-full rounded-lg"
-								alt="image of a crane under blue sky"
-							/>
+							<img src={img1} className="block w-full rounded-lg" alt="..." />
 							<div className="carousel-caption hidden md:block absolute text-center">
 								<h5 className="text-xl">First image</h5>
 								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 							</div>
 						</div>
 						<div className="carousel-item relative float-left w-full">
-							<img
-								src={img2}
-								className="block w-full rounded-lg"
-								alt="image of a minimalist concrete building"
-							/>
+							<img src={img2} className="block w-full rounded-lg" alt="..." />
 							<div className="carousel-caption hidden md:block absolute text-center">
 								<h5 className="text-xl">Second image</h5>
 								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 							</div>
 						</div>
 						<div className="carousel-item relative float-left w-full">
-							<img
-								src={img3}
-								className="block w-full rounded-lg"
-								alt="black and white image of scyscrappers"
-							/>
+							<img src={img3} className="block w-full rounded-lg" alt="..." />
 							<div className="carousel-caption hidden md:block absolute text-center">
 								<h5 className="text-xl">Third image</h5>
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+							</div>
+						</div>
+						<div className="carousel-item relative float-left w-full">
+							<img src={img4} className="block w-full rounded-lg" alt="..." />
+							<div className="carousel-caption hidden md:block absolute text-center">
+								<h5 className="text-xl">Fourth image</h5>
 								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 							</div>
 						</div>

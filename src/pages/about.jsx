@@ -17,7 +17,7 @@ function About() {
 	return (
 		<ReactMarkdown
 			children={content}
-			className="prose max-w-4xl mx-auto px-8 md:px-4"
+			className="prose max-w-4xl mx-auto px-8 md:px-4 pt-24 sm:pt-20"
 			remarkPlugins={[remarkGfm]}
 		/>
 	);

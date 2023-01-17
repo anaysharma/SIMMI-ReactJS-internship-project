@@ -7,19 +7,19 @@ import GenerateCardPage from './components/cardPage';
 function App() {
 	return (
 		<>
-			<nav className="bg-white px-2 sm:px-4 py-2.5">
+			<nav className="bg-white px-2 sm:px-4 py-2.5 shadow-md sm:shadow-none fixed z-10 w-full">
 				<ul className="container flex flex-wrap sm:gap-8 items-center justify-between mx-auto max-w-4xl">
-					<li className="hover:text-blue-700 py-4">
+					<li className="hover:text-blue-700 py-4 rounded-lg sm:bg-slate-100 lg:bg-white text-lg">
 						<Link className="p-4" to="/">
 							HOME
 						</Link>
 					</li>
-					<li className="sm:mr-auto hover:text-blue-700 py-4">
+					<li className="sm:mr-auto hover:text-blue-700 py-4 rounded-lg sm:bg-slate-100 lg:bg-white text-lg">
 						<Link className="p-4" to="/about">
 							ABOUT
 						</Link>
 					</li>
-					<li className="hover:text-blue-700 py-4">
+					<li className="hover:text-blue-700 py-4 rounded-lg sm:bg-slate-100 lg:bg-white text-lg">
 						<Link className="p-4" to="/profile">
 							PROFILE
 						</Link>
