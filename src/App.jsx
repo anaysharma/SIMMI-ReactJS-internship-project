@@ -27,7 +27,7 @@ function App() {
 				</ul>
 			</nav>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route exact path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/profile" element={<Profile />} />
 				<Route path="/homecards/:id" element={<GenerateCardPage />} />
