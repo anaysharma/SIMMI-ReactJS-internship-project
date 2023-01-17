@@ -8,7 +8,7 @@ export default function GenerateCardPage() {
 	for (let i = 0; i < data.length; i++) if (data[i].id == id) card = data[i];
 
 	return (
-		<main className="max-w-4xl mx-auto px-4 pt-24 sm:pt-20">
+		<main className="max-w-4xl mx-auto px-4 pt-20">
 			<h1 className="font-bold text-2xl mb-8">{`${id}. ${card.title}`}</h1>
 			<figure className="w-full md:w-2/4 float-left md:mr-6 mb-2">
 				<img src={card.src} alt={card.alt} className="rounded-lg w-full" />

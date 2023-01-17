@@ -6,7 +6,7 @@ import img4 from '../assets/img4.webp';
 export default function Carousal() {
 	return (
 		<>
-			<h1 className="text-2xl max-w-4xl px-4 mx-auto text-center sm:text-left mb-4 pt-24 sm:pt-20">
+			<h1 className="text-2xl max-w-4xl px-4 mx-auto text-center sm:text-left mb-4 pt-20">
 				Banner image slider
 			</h1>
 			<section className="max-w-4xl px-4 flex mx-auto">

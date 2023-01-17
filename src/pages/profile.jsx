@@ -7,7 +7,7 @@ import github from '../assets/github.png';
 function Profile() {
 	return (
 		<>
-			<main className="max-w-4xl mx-auto p-4 pt-24 sm:pt-20">
+			<main className="max-w-4xl mx-auto p-4 pt-20">
 				<div className="flex-col sm:flex-row shadow-lg rounded-lg flex p-8 gap-8 border items-center">
 					<img className="h-40 rounded-full" src={pfp} alt="..." />
 					<div className="flex flex-col">
