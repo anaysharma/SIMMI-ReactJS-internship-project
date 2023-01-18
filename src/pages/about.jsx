@@ -12,8 +12,6 @@ function About() {
       .then((text) => setContent(text))
   }, [])
 
-  console.log(content)
-
   return (
     <ReactMarkdown
       children={content}
